@@ -1,0 +1,644 @@
+ul{
+position: absolute;
+width: 1120px;
+height: 35px;
+left: calc(50% - 1120px/2);
+top: 54px;
+font-family: 'DM Sans', sans-serif;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.navigation{
+    
+position: absolute;
+width: 384.91px;
+height: 20px;
+left: 90%;
+top: 13px;
+}
+
+t1{
+ 
+/* Navigation */
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 120%;
+/* identical to box height, or 22px */
+letter-spacing: -0.03em;
+left: 65.63%;
+/* Main Black */
+color: black;
+}
+
+
+headline{
+    position: absolute;
+    width: 1064.06px;
+    height: 395.44px;
+    left: 160px;
+    top: 194px;
+}
+
+/* I wear many hats... Data Visualization / Tech Product Manager / Fashion Trend Analyst */
+tag1{
+font-family: 'DM Sans', sans-serif;
+position: absolute;
+width: 584.06px;
+height: 218.58px;
+left: calc(50% - 584.06px/2 + 212.03px);
+top: 370px;
+}
+
+/* Heading-2 */
+h2{
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 120%;
+/* or 22px */
+letter-spacing: -0.03em;
+
+color: #606060;
+}
+
+headline{
+position: absolute;
+width: 1064.06px;
+height: 395.44px;
+left: 160px;
+top: 194px;
+}
+
+/* Hello, I’m Chay Chayanit Thawaranont */
+.hello{
+position: absolute;
+width: 357.48px;
+height: 351.16px;
+left: calc(50% - 357.48px/2 - 380.28px);
+top: 194px;
+}
+
+h1{
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 55px;
+line-height: 100%;
+/* or 55px */
+letter-spacing: -0.03em;
+
+/* Main Black */
+color: #181717;
+}
+
+/* ↓ */
+arrow{
+
+position: absolute;
+width: 33.84px;
+height: 45.44px;
+left: calc(50% - 33.84px/2 - 543.08px);
+top: 544px;
+}
+
+navigation2{
+    
+position: absolute;
+width: 720.18px;
+height: 29px;
+top: 669px;
+
+}
+
+t2{
+/* Navigation */
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 120%;
+/* or 22px */
+letter-spacing: -0.03em;
+
+color: black;
+}
+
+a {
+  color: black;
+ text-decoration: none;
+}
+
+a:hover:not(.active) {
+    text-decoration: underline;
+    letter-spacing: -0.03em;
+    color:black;
+    width:100%;
+}
+
+.active {
+    background-color: #F7D8B7;
+    text-decoration: underline;
+    width:100%;
+
+}
+
+body2{
+position: absolute;
+width: 1128px;
+height: 751px;
+left: 160px;
+top: 1100px;
+
+}
+
+.seperator{
+/* Seperator */
+position: absolute;
+left: 0.71%;
+right: -0.26%;
+top: 100%;
+bottom: 0%;
+border: 1.5px solid #181717;
+}
+
+/* 01 / PROJECT NAME */
+.name{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 26px;
+line-height: 121.5%;
+/* or 22px */
+letter-spacing: -0.03em;
+
+/* Main Black */
+color: #181717;
+}
+.description{
+position: absolute;
+left: 0%;
+right: 68.21%;
+top: 9.3%;
+bottom: 54.97%;
+
+/* Body */
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+letter-spacing: 0.009em;
+
+/* Main Black */
+color: #181717;
+
+}
+
+.description2{
+position: absolute;
+left: 0%;
+right: 71.84%;
+top: 30.66%;
+bottom: 61.95%;
+
+/* Sub-text */
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 121.5%;
+/* or 17px */
+display: flex;
+align-items: flex-end;
+letter-spacing: -0.03em;
+
+/* Main Gray */
+color: #606060;
+
+}
+
+.link{
+position: absolute;
+left: 0%;
+right: 70.87%;
+top: 73.36%;
+bottom: 22.41%;
+
+/* Sub Header / Link */
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+letter-spacing: -0.03em;
+text-decoration: underline;
+/* Main Black */
+color: #181717;
+
+}
+
+.sideImage{
+position: absolute;
+width: 621px;
+height: 349px;
+left: 670px;
+}
+
+.gifImage{
+position: absolute;
+max-width: 100%;
+max-height: 100%;
+left: 670px;
+}
+.sideImageExtra{
+    /* Chay_TimeIs_1 1 */
+
+position: absolute;
+width: 438px;
+height: 297px;
+left: 778px;
+top: calc(150% - 297px/2 - 505.5px);
+
+}
+
+body3{
+position: absolute;
+width: 1128px;
+height: 751px;
+left: 160px;
+top: 2040px;
+}
+
+body4{
+position: absolute;
+width: 1120px;
+height: 866px;
+left: 156px;
+top: 2961px;
+}
+
+.sideImageExtra1{
+position: absolute;
+width: 278px;
+height: 438px;
+left: 674px;
+top: 350px;
+}
+
+.sideImageExtra2{
+position: absolute;
+width: 278px;
+height: 436px;
+left: 972px;
+top: 350px;
+}
+
+footer{
+position: absolute;
+width: 1171px;
+height: 30px;
+left: 160px;
+top: 3902px;
+bottom: 260px;
+}
+
+footer1{
+    /* Mehmet Akif Karasu ⏤ 2020 */
+
+position: absolute;
+left: 0%;
+right: 75.82%;
+top: 0%;
+padding-bottom: 10%;
+
+/* Navigation */
+font-family:  'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 120%;
+/* or 22px */
+letter-spacing: -0.03em;
+
+/* Secondary */
+color: #062501;
+
+}
+
+/* Instagram */
+.Instagram{
+position: absolute;
+left:70.59%;
+right: 20.64%;
+font-family:  'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 120%;
+/* or 22px */
+letter-spacing: -0.03em;
+color: #181717;
+}
+
+.Linkedin{
+position: absolute;
+left: 82.2%;
+right: 9.03%;
+font-family:  'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 120%;
+/* or 22px */
+letter-spacing: -0.03em;
+color: #181717;
+}
+
+.Twitter{
+position: absolute;
+left: 93.8%;
+right: 0%;
+font-family:  'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 120%;
+/* or 22px */
+letter-spacing: -0.03em;
+color: #181717;
+}
+
+AboutSec{
+position: absolute;
+width: 1120px;
+height: 1366px;
+left: 160px;
+top: 236px;
+}
+
+.intro{
+position: absolute;
+width: 575px;
+height: 246px;
+left: calc(50% - 575px/2 - 272.5px);
+top: 236px;
+
+/* Heading-1 */
+font-family:  'DM Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 55px;
+line-height: 100%;
+/* or 55px */
+letter-spacing: -0.03em;
+
+/* Main Black */
+color: #181717;
+}
+
+.about{
+    
+position: absolute;
+width: 588px;
+height: 533px;
+left: calc(50% - 588px/2 - 266px);
+top: 566px;
+
+/* About me */
+font-family:  'DM Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 117%;
+/* or 27px */
+letter-spacing: 0.009em;
+
+/* Main Gray */
+color: #606060;
+
+}
+
+
+
+.left1{
+position: absolute;
+width: 124px;
+height: 20px;
+left: calc(50% - 124px/2 - 498px);
+top: 1089px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+letter-spacing: -0.03em;
+text-decoration: underline;
+
+/* Main Black */
+color: #181717;
+}
+
+.left2{
+position: absolute;
+width: 124px;
+height: 20px;
+left: calc(50% - 124px/2 - 498px);
+top: 1164px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+letter-spacing: -0.03em;
+text-decoration: underline;
+
+/* Main Black */
+color: #181717;
+}
+
+.left3{
+position: absolute;
+width: 124px;
+height: 20px;
+left: calc(50% - 124px/2 - 498px);
+top: 1261px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+letter-spacing: -0.03em;
+text-decoration: underline;
+
+/* Main Black */
+color: #181717;
+}
+
+.skill1{
+ /* Javascript, P5.js, D3.js, Python, HTML, CSS */
+
+position: absolute;
+width: 436px;
+height: 54px;
+left: calc(50% - 436px/2 - 155px);
+top: 1090px;
+
+/* Body */
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+letter-spacing: -0.03em;
+
+/* Main Black */
+color: #181717;
+}
+
+.skill2{
+/* Adobe CC, Figma */
+position: absolute;
+width: 142px;
+height: 22px;
+left: calc(50% - 142px/2 - 301px);
+top: 1164px;
+
+/* Body */
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 121.5%;
+/* identical to box height, or 22px */
+letter-spacing: -0.03em;
+
+/* Main Black */
+color: #181717;
+}
+
+
+.skill3{
+    /* Tableau, Power BI , Microsoft Office, Google Suit */
+position: absolute;
+width: 401px;
+height: 22px;
+left: calc(50% - 401px/2 - 172.5px);
+top: 1258px;
+
+/* Body */
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 121.5%;
+/* identical to box height, or 22px */
+letter-spacing: -0.03em;
+
+/* Main Black */
+color: #181717;
+}
+
+.portrait{
+position: absolute;
+width: 376px;
+height: 441px;
+left: 965px;
+top: 589px;
+}
+
+
+contact{
+/* Contact */
+
+position: absolute;
+width: 1120px;
+height: 166px;
+left: 160px;
+top: 100%;
+}
+.connect{ /* Let’s Connect : ) */
+
+position: absolute;
+width: 347px;
+height: 71px;
+left: calc(50% - 347px/2 - 386.5px);
+top: 100%;
+
+/* Heading-2 */
+font-family:  'DM Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 117%;
+/* or 37px */
+letter-spacing: -0.03em;
+
+/* Main Black */
+color: #181717;
+}
+
+.email{
+    position: absolute;
+width: 412px;
+height: 37px;
+left: calc(50% - 412px/2 + 315px);
+top: 100%;
+
+/* Heading-2 */
+font-family:  'DM Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 117%;
+/* or 37px */
+letter-spacing: -0.03em;
+
+/* Main Black */
+color: #181717;
+}
+
+.resume{
+    /* View Resume */
+
+position: absolute;
+width: 110px;
+height: 22px;
+left: calc(50% - 110px/2 + 164px);
+top: 130%;
+
+/* Body */
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 121.5%;
+/* identical to box height, or 22px */
+letter-spacing: -0.03em;
+
+/* Main Black */
+color: #181717;
+}
+
+
+
+footerAbout{
+position: absolute;
+width: 1171px;
+height: 30px;
+left: 160px;
+top: 2500px;
+bottom: 260px;
+}
