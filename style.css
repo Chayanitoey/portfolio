@@ -301,7 +301,7 @@ top: 350px;
 
 footer{
 position: absolute;
-width: 1171px;
+width: 1200px;
 height: 30px;
 left: 160px;
 top: 3902px;
@@ -313,7 +313,7 @@ footer1{
 
 position: absolute;
 left: 0%;
-right: 75.82%;
+/*right: 75.82%;*/
 top: 0%;
 padding-bottom: 10%;
 
@@ -334,7 +334,7 @@ color: #062501;
 /* Instagram */
 .Instagram{
 position: absolute;
-left:70.59%;
+left:65%;
 right: 20.64%;
 font-family:  'DM Sans', sans-serif;
 font-style: normal;
@@ -348,7 +348,7 @@ color: #181717;
 
 .Linkedin{
 position: absolute;
-left: 82.2%;
+left: 75%;
 right: 9.03%;
 font-family:  'DM Sans', sans-serif;
 font-style: normal;
@@ -360,9 +360,9 @@ letter-spacing: -0.03em;
 color: #181717;
 }
 
-.Twitter{
+.Github{
 position: absolute;
-left: 93.8%;
+left: 85%;
 right: 0%;
 font-family:  'DM Sans', sans-serif;
 font-style: normal;
@@ -560,22 +560,22 @@ top: 589px;
 }
 
 
-contact{
+/*contact{*/
 /* Contact */
 
-position: absolute;
-width: 1120px;
-height: 166px;
-left: 160px;
-top: 100%;
-}
+/*position: absolute;*/
+/*width: 1120px;*/
+/*height: 166px;*/
+/*left: 160px;*/
+/*top: 100%;*/
+/*}*/
 .connect{ /* Let’s Connect : ) */
 
 position: absolute;
 width: 347px;
 height: 71px;
 left: calc(50% - 347px/2 - 386.5px);
-top: 100%;
+top:110%;
 
 /* Heading-2 */
 font-family:  'DM Sans', sans-serif;
@@ -595,7 +595,7 @@ color: #181717;
 width: 412px;
 height: 37px;
 left: calc(50% - 412px/2 + 315px);
-top: 100%;
+top: 110%;
 
 /* Heading-2 */
 font-family:  'DM Sans', sans-serif;
@@ -617,7 +617,7 @@ position: absolute;
 width: 110px;
 height: 22px;
 left: calc(50% - 110px/2 + 164px);
-top: 130%;
+top: 120%;
 
 /* Body */
 font-family: 'Inter', sans-serif;
@@ -639,6 +639,12 @@ position: absolute;
 width: 1171px;
 height: 30px;
 left: 160px;
-top: 2500px;
+top: 2000px;
 bottom: 260px;
 }
+
+html { font-size:80%; }
+
+@media (min-width: 640px) { body {font-size:1rem;} }
+@media (min-width:960px) { body {font-size:1.2rem;} }
+@media (min-width:1100px) { body {font-size:1.5rem;} }
