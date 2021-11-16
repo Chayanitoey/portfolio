@@ -1,28 +1,27 @@
 ul{
 position: absolute;
-width: 1120px;
-height: 35px;
-left: calc(50% - 1120px/2);
-top: 54px;
+width: 120%;
+height: 35%;
+left: 10%;
+top: 5.4%;
 font-family: 'DM Sans', sans-serif;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-body{
-position: absolute;
-width: 1128px;
-height: 3033px;
-left: 156px;
-top: 194px;
-}
 
+/*body{*/
+/*width: 100%;*/
+/*height: 100%;*/
+/*left: 50%;*/
+/*top: 5%;*/
+/*}*/
 .navigation{
     
 position: absolute;
-width: 384.91px;
-height: 20px;
-left: 90%;
-top: 13px;
+width: 384.91%;
+height: 20%;
+left: 5%;
+top: 13%;
 }
 
 t1{
@@ -31,8 +30,8 @@ t1{
 font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 25px;
-line-height: 120%;
+font-size: 150%;
+line-height: 12%;
 /* identical to box height, or 22px */
 letter-spacing: -0.03em;
 left: 65.63%;
@@ -43,20 +42,20 @@ color: black;
 
 headline{
     position: absolute;
-    width: 1064.06px;
-    height: 395.44px;
-    left: 160px;
-    top: 194px;
+    width: 100%;
+    height: 30%;
+    left: 0%;
+    top: 9%;
 }
 
 /* I wear many hats... Data Visualization / Tech Product Manager / Fashion Trend Analyst */
 tag1{
 font-family: 'DM Sans', sans-serif;
 position: absolute;
-width: 584.06px;
-height: 218.58px;
-left: calc(50% - 584.06px/2 + 212.03px);
-top: 370px;
+width: 30.06%;
+height: 20.58%;
+left: 50%;
+top: 27%;
 }
 
 /* Heading-2 */
@@ -64,8 +63,8 @@ h2{
 font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 32px;
-line-height: 120%;
+font-size: 170%;
+line-height: 125%;
 /* or 22px */
 letter-spacing: -0.03em;
 
@@ -74,26 +73,25 @@ color: #606060;
 
 headline{
 position: absolute;
-width: 1064.06px;
-height: 395.44px;
-left: 160px;
-top: 194px;
+width: 106.06%;
+height: 39.44%;
+left: 16%;
+top: 19.4%;
 }
 
 /* Hello, I’m Chay Chayanit Thawaranont */
 .hello{
 position: absolute;
-width: 357.48px;
-height: 351.16px;
-left: calc(50% - 357.48px/2 - 380.28px);
-top: 194px;
+width: 35.48%;
+height: 35.16%;
+top: 19.4%;
 }
 
 h1{
 font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: bold;
-font-size: 55px;
+font-size: 350%;
 line-height: 100%;
 /* or 55px */
 letter-spacing: -0.03em;
@@ -106,18 +104,18 @@ color: #181717;
 arrow{
 
 position: absolute;
-width: 33.84px;
-height: 45.44px;
-left: calc(50% - 33.84px/2 - 543.08px);
-top: 544px;
+width: 33.84%;
+height: 30.44%;
+left: 50%;
+top: 55%;
 }
 
 navigation2{
     
 position: absolute;
-width: 720.18px;
-height: 29px;
-top: 669px;
+width: 720.18%;
+height: 29%;
+top: 69%;
 
 }
 
@@ -155,21 +153,21 @@ a:hover:not(.active) {
 
 body2{
 position: absolute;
-width: 1128px;
-height: 751px;
-left: 160px;
-top: 1100px;
+width: 100%;
+height: 41%;
+left: 16%;
+top: 60%;
 
 }
 
 .seperator{
 /* Seperator */
 position: absolute;
-left: 0.71%;
-right: -0.26%;
-top: 100%;
+left: 0.01%;
+right: 15%;
+top: 120%;
 bottom: 0%;
-border: 1.5px solid #181717;
+border: 2px solid #181717;
 }
 
 /* 01 / PROJECT NAME */
@@ -177,7 +175,7 @@ border: 1.5px solid #181717;
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 800;
-font-size: 26px;
+font-size: 250%;
 line-height: 121.5%;
 /* or 22px */
 letter-spacing: -0.03em;
@@ -189,14 +187,14 @@ color: #181717;
 position: absolute;
 left: 0%;
 right: 68.21%;
-top: 9.3%;
-bottom: 54.97%;
+top: 15.3%;
+bottom: 5%;
 
 /* Body */
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 100%;
 line-height: 121.5%;
 /* or 22px */
 letter-spacing: 0.009em;
@@ -210,14 +208,14 @@ color: #181717;
 position: absolute;
 left: 0%;
 right: 71.84%;
-top: 30.66%;
-bottom: 61.95%;
+top: 10%;
+bottom: 60%;
 
 /* Sub-text */
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
+font-size: 90%;
 line-height: 121.5%;
 /* or 17px */
 display: flex;
@@ -252,67 +250,67 @@ color: #181717;
 
 .sideImage{
 position: absolute;
-width: 621px;
-height: 349px;
-left: 670px;
+width: 100%;
+height: 100%;
+left: 50%;
 }
 
 .gifImage{
 position: absolute;
 max-width: 100%;
 max-height: 100%;
-left: 670px;
+left: 50%;
 }
 .sideImageExtra{
     /* Chay_TimeIs_1 1 */
 
 position: absolute;
-width: 438px;
-height: 297px;
-left: 778px;
+width: 438%;
+height: 297%;
+left: 778%;
 top: calc(150% - 297px/2 - 505.5px);
 
 }
 
 body3{
 position: absolute;
-width: 1128px;
-height: 751px;
-left: 160px;
-top: 2040px;
+width: 100%;
+height: 50%;
+left: 16%;
+top: 120%;
 }
 
 body4{
 position: absolute;
-width: 1120px;
-height: 866px;
-left: 156px;
-top: 2961px;
+width: 100%;
+height: 50%;
+left: 16%;
+top: 190%;
 }
 
 .sideImageExtra1{
 position: absolute;
-width: 278px;
-height: 438px;
-left: 674px;
-top: 350px;
+width: 100%;
+height: 100%;
+left: 63%;
+top: 50%;
 }
 
 .sideImageExtra2{
 position: absolute;
-width: 278px;
-height: 436px;
-left: 972px;
-top: 350px;
+width: 100%;
+height: 100%;
+left: 50%;
+top: 50%;
 }
 
 footer{
 position: absolute;
-width: 1200px;
-height: 30px;
-left: 160px;
-top: 3902px;
-bottom: 260px;
+width: 100%;
+height: 10%;
+left: 16%;
+top: 255%;
+bottom: 20%;
 }
 
 footer1{
@@ -322,7 +320,7 @@ position: absolute;
 left: 0%;
 /*right: 75.82%;*/
 top: 0%;
-padding-bottom: 10%;
+padding-bottom: 2%;
 
 /* Navigation */
 font-family:  'DM Sans', sans-serif;
@@ -341,8 +339,8 @@ color: #062501;
 /* Instagram */
 .Instagram{
 position: absolute;
-left:65%;
-right: 20.64%;
+left:55%;
+right: 10.64%;
 font-family:  'DM Sans', sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -355,8 +353,8 @@ color: #181717;
 
 .Linkedin{
 position: absolute;
-left: 75%;
-right: 9.03%;
+left: 65%;
+right: 8.03%;
 font-family:  'DM Sans', sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -369,7 +367,7 @@ color: #181717;
 
 .Github{
 position: absolute;
-left: 85%;
+left: 75%;
 right: 0%;
 font-family:  'DM Sans', sans-serif;
 font-style: normal;
@@ -383,25 +381,24 @@ color: #181717;
 
 AboutSec{
 position: absolute;
-width: 1120px;
-height: 1366px;
-left: 160px;
-top: 236px;
+width: 100%;
+height: 100%;
+left: 16%;
+top: 20%;
 }
 
 .intro{
 position: absolute;
-width: 575px;
-height: 246px;
-left: calc(50% - 575px/2 - 272.5px);
-top: 236px;
+width: 40%;
+height: 100%;
+top:10%;
 
 /* Heading-1 */
 font-family:  'DM Sans', sans-serif;
 font-style: normal;
 font-weight: bold;
-font-size: 55px;
-line-height: 100%;
+font-size: 300%;
+line-height: 120%;
 /* or 55px */
 letter-spacing: -0.03em;
 
@@ -412,16 +409,16 @@ color: #181717;
 .about{
     
 position: absolute;
-width: 588px;
-height: 533px;
-left: calc(50% - 588px/2 - 266px);
-top: 566px;
+width: 50%;
+height: 50%;
+top: 35%;
+bottom:10%;
 
 /* About me */
 font-family:  'DM Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 23px;
+font-size: 150%;
 line-height: 117%;
 /* or 27px */
 letter-spacing: 0.009em;
@@ -435,15 +432,14 @@ color: #606060;
 
 .left1{
 position: absolute;
-width: 124px;
-height: 20px;
-left: calc(50% - 124px/2 - 498px);
-top: 1089px;
+width: 10%;
+/*height: 20%;*/
+top: 90%;
 
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 18px;
+font-size: 150%;
 line-height: 121.5%;
 /* or 22px */
 letter-spacing: -0.03em;
@@ -455,15 +451,14 @@ color: #181717;
 
 .left2{
 position: absolute;
-width: 124px;
-height: 20px;
-left: calc(50% - 124px/2 - 498px);
-top: 1164px;
+width: 10%;
+height: 20%;
+top: 100%;
 
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 18px;
+font-size: 150%;
 line-height: 121.5%;
 /* or 22px */
 letter-spacing: -0.03em;
@@ -475,15 +470,14 @@ color: #181717;
 
 .left3{
 position: absolute;
-width: 124px;
-height: 20px;
-left: calc(50% - 124px/2 - 498px);
-top: 1261px;
+width: 10%;
+height: 20%;
+top: 110%;
 
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 18px;
+font-size: 150%;
 line-height: 121.5%;
 /* or 22px */
 letter-spacing: -0.03em;
@@ -497,16 +491,15 @@ color: #181717;
  /* Javascript, P5.js, D3.js, Python, HTML, CSS */
 
 position: absolute;
-width: 436px;
-height: 54px;
-left: calc(50% - 436px/2 - 155px);
-top: 1090px;
+width: 50%;
+left: 20%;
+top: 90%;
 
 /* Body */
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 150%;
 line-height: 121.5%;
 /* or 22px */
 letter-spacing: -0.03em;
@@ -518,16 +511,15 @@ color: #181717;
 .skill2{
 /* Adobe CC, Figma */
 position: absolute;
-width: 142px;
-height: 22px;
-left: calc(50% - 142px/2 - 301px);
-top: 1164px;
+width: 100%;
+left: 20%;
+top: 100%;
 
 /* Body */
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 150%;
 line-height: 121.5%;
 /* identical to box height, or 22px */
 letter-spacing: -0.03em;
@@ -540,16 +532,15 @@ color: #181717;
 .skill3{
     /* Tableau, Power BI , Microsoft Office, Google Suit */
 position: absolute;
-width: 401px;
-height: 22px;
-left: calc(50% - 401px/2 - 172.5px);
-top: 1258px;
+width: 100%;
+left: 20%;
+top: 110%;
 
 /* Body */
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 150%;
 line-height: 121.5%;
 /* identical to box height, or 22px */
 letter-spacing: -0.03em;
@@ -560,10 +551,10 @@ color: #181717;
 
 .portrait{
 position: absolute;
-width: 376px;
-height: 441px;
-left: 965px;
-top: 589px;
+width: 150%;
+height: 150%;
+left: 50%;
+top:10%;
 }
 
 
@@ -579,17 +570,16 @@ top: 589px;
 .connect{ /* Let’s Connect : ) */
 
 position: absolute;
-width: 347px;
-height: 71px;
-left: calc(50% - 347px/2 - 386.5px);
-top:110%;
+width: 100%;
+height: 30%;
+top:130%;
 
 /* Heading-2 */
 font-family:  'DM Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 32px;
-line-height: 117%;
+font-size: 200%;
+line-height: 120%;
 /* or 37px */
 letter-spacing: -0.03em;
 
@@ -598,17 +588,16 @@ color: #181717;
 }
 
 .email{
-    position: absolute;
-width: 412px;
-height: 37px;
-left: calc(50% - 412px/2 + 315px);
-top: 110%;
+position: absolute;
+width: 5%;
+height: 37%;
+top: 135%;
 
 /* Heading-2 */
 font-family:  'DM Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 32px;
+font-size: 200%;
 line-height: 117%;
 /* or 37px */
 letter-spacing: -0.03em;
@@ -621,16 +610,16 @@ color: #181717;
     /* View Resume */
 
 position: absolute;
-width: 110px;
-height: 22px;
-left: calc(50% - 110px/2 + 164px);
-top: 120%;
+width: 50%;
+height: 30%;
+left:40%;
+top: 135%;
 
 /* Body */
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 200%;
 line-height: 121.5%;
 /* identical to box height, or 22px */
 letter-spacing: -0.03em;
@@ -643,14 +632,11 @@ color: #181717;
 
 footerAbout{
 position: absolute;
-width: 1171px;
-height: 30px;
-left: 160px;
-top: 2000px;
-bottom: 260px;
+width: 100%;
+left: 16%;
+top: 164%;
 }
 
-html { font-size:80%; }
 
 @media (min-width: 640px) { body {font-size:1rem;} }
 @media (min-width:960px) { body {font-size:1.2rem;} }
