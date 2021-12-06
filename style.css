@@ -139,8 +139,9 @@ a {
 
 a:hover:not(.active) {
     text-decoration: underline;
+    font-weight: bold;
     letter-spacing: -0.03em;
-    color:black;
+    color:#4753e9;
     width:100%;
 }
 
@@ -188,13 +189,14 @@ position: absolute;
 left: 0%;
 right: 68.21%;
 top: 15.3%;
-bottom: 5%;
+bottom: 10%;
+margin-bottom: 10%;
 
 /* Body */
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 100%;
+font-size: 110%;
 line-height: 121.5%;
 /* or 22px */
 letter-spacing: 0.009em;
@@ -207,15 +209,16 @@ color: #181717;
 .description2{
 position: absolute;
 left: 0%;
+
 right: 71.84%;
-top: 10%;
+top:50%;
 bottom: 60%;
 
 /* Sub-text */
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 90%;
+font-size: 100%;
 line-height: 121.5%;
 /* or 17px */
 display: flex;
@@ -225,6 +228,11 @@ letter-spacing: -0.03em;
 /* Main Gray */
 color: #606060;
 
+}
+.description2_new{
+    margin-top: 10%;
+    font-size: 80%;
+    color: #606060;
 }
 
 .link{
@@ -288,6 +296,14 @@ left: 16%;
 top: 190%;
 }
 
+body5{
+position: absolute;
+width: 100%;
+height: 50%;
+left: 16%;
+top: 260%;
+}
+
 .sideImageExtra1{
 position: absolute;
 width: 100%;
@@ -303,13 +319,20 @@ height: 100%;
 left: 50%;
 top: 50%;
 }
+.side_assets{
+position: absolute;
+width: 150%;
+height: 150%;
+margin-left: 50%;
+top: 10%;
+}
 
 footer{
 position: absolute;
 width: 100%;
 height: 10%;
 left: 16%;
-top: 255%;
+top: 330%;
 bottom: 20%;
 }
 
