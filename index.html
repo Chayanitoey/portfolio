@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
     <title>Chay Thawaranont</title>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/example.png">
+
+    <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="app.js"></script>
+    </head>
+      <link rel="icon" href="images/example.png">
 
     <link rel="icon" href="assets/smile.png">
     <link rel="stylesheet" type="text/css" href="style.css">
 	
-	<script type="text/javascript">
+<!-- 	<script type="text/javascript">
         function zoom() {
             document.body.style.zoom = "90%" 
         }
-       </script>
+       </script> -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3YV9STSVXR"></script>
 <script>
@@ -25,6 +30,33 @@
 	
 	
 <body onload="zoom()" >
+    
+    
+    
+
+<!--scrolling text-->
+<div class ="animatedtext">
+ <div class="l">
+  Chay -anit Thawaranont / Chay -anit Thawaranont / Chay -anit  Thawaranont / Chay -anit Thawaranont.
+</div>
+<div class="r">
+  Data Visualization. Storytelling. Creative Writing. Data Visualization.
+</div>
+</div>
+
+<div class="mouse_scroll">
+
+		<div class="mouse">
+			<div class="wheel"></div>
+		</div>
+		<div>
+			<span class="m_scroll_arrows unu"></span>
+			<span class="m_scroll_arrows doi"></span>
+			<span class="m_scroll_arrows trei"></span>
+		</div>
+</div>
+
+
   
 <ul>
   <div class = "navigation">
@@ -42,22 +74,21 @@
            <h2> Chayanit Thawaranont</h2>
           
         </div>
-          <arrow>
-          <img src="assets/arrow.png"></img>
+          <arrow src="assets/arrow.png">
            </arrow>
         <tag1>I wear many hats...
             <h2>
             <a href = "index.html"> Data Visualization </a>/ 
-            <a href = "https://www.youtube.com/watch?v=OATVLlzL-t4"> Keynote Speaker </a> / 
+            <a href = "https://www.youtube.com/watch?v=OATVLlzL-t4"> Fashion Design </a> / 
             <a href = "https://www.instagram.com/chayisafoodienyc/">Food Enthusiast </a> 
              </h2>
         </tag1>
         
-         <navigation2> 
-    <t2><a href="index.html">-Data Visualization-</a></t2>	&nbsp;
-    <t2><a href="https://medium.com/@chayanit">-My Journal-</a></t2>	&nbsp;
-    <t2><a href="https://www.behance.net/toeythawar738f">-Everything else-</a></t2>	&nbsp;
-       </navigation2> 
+    <!--     <navigation2> -->
+    <!--<t2><a href="index.html">-Data Visualization-</a></t2>	&nbsp;-->
+    <!--<t2><a href="https://medium.com/@chayanit">-My Journal-</a></t2>	&nbsp;-->
+    <!--<t2><a href="https://www.behance.net/toeythawar738f">-Everything else-</a></t2>	&nbsp;-->
+    <!--   </navigation2> -->
     </headline>
 </body1>
 
@@ -65,27 +96,51 @@
 
 <body2>
     <div class ="name">
-        Visualizing Time
-    </div>
+    Wine Wine World</div>
     <div class ="description">
-    In this project, I explored the idea of how we can create a clock without numerical elements.
-    I used basic shapes to translate time and created appealing visual with interactive elements. </div>
-    <div class ="description2">
-    Main tools are P5.js and CSS, I also added ‘Tweakpane’ as an optional tool for users to play with design elements. </div>
+        This project explores the data set of wine available on Kaggle. 
+        The data contains various available wine varieties and labels from more than 25 nations. 
+        There are many different varieties of wine in our world and each has unique flavors. Interestingly, growing same variety of wine in one region can yield tastier wine than growing it in other regions. 
+        The main goal of this project is to simplify the world of wine and make the subject more approachable for general public to perceive the complexity of wine. 
+    <div class ="description2_new">
+    Graphs in this project :  A Bar Chart, Two Tree Maps, Two Stream Graphs and A Geospatial Map with Choropleth  and Geolocation.     </div>
+
     <div class ="link">
-        <a href ="https://chayanitoey.github.io/timeproject/">
+        <a href ="https://chayanitoey.github.io/HowDoYouWine/">
         See this project in action ↗
           </a>
     </div>
-    <div class ="gifImage">
-        <img src="assets/timeviz.gif"></img>
+ </div>
+
+    <div class ="side_assets">
+        <card>
+	<figure>
+		<tooltip-icon>i</tooltip-icon>			
+		<a href="https://chayanitoey.github.io/HowDoYouWine/WineMap.html" >
+		<img src="assets/wine.jpg" alt="Picsum random image" />
+		<figcaption>
+			Credit: background image - <small>Jhon Doe 2022</small>
+			<a href="https://chayanitoey.github.io/HowDoYouWine/WineMap.html" target="_blank">Find out More</a>
+		</figcaption>
+		</a>
+	</figure>
+	<textwrap>
+		<h2>Wine World Map</h2>
+		<!--<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>-->
+	</textwrap>
+</card>
+
     </div>
+    
     <!-- <div class ="sideImageExtra">-->
     <!--    <img src="assets/Chay_TimeIs_1 1.png"></img>-->
     <!--</div>-->
     <div class ="seperator">
     </div>
+    
+    
 </body2>
+
 <body3>
    <div class ="name">
    Air Quality in New York City
@@ -93,47 +148,84 @@
     <div class ="description">
     The purpose of this design is to help us understand the big picture and see where the most vulnerable areas are,
     impacted by PM 2.5. Using heatmap will also spark more curiosities on how we can use this base insights to investigate more findings and eventually 
-    drive changes in the policy level.</div>
-    <div class ="description2">I used mainly leaflet.JS to create the map and a liittle bit of D3.js to visualize numbers as a bar graph.</div>
+    drive changes in the policy level.
+    
+    <div class ="description2_new">I used mainly leaflet.JS to create the map and a liittle bit of D3.js to visualize numbers as a bar graph.</div>
     <div class ="link"><a href ="https://chayanitoey.github.io/DVIA/Index.html">
         See this project in action ↗
         </a>
     </div>
+    </div>
+    
       <div class ="seperator">
     </div>
-    <div class ="sideImage">
-        <img src="assets/map2.gif"></img>
+    
+    <div class ="side_assets">
+        <card>
+    <a href ="https://chayanitoey.github.io/DVIA/Index.html">
+	<figure>
+		<tooltip-icon>i</tooltip-icon>
+		<img src="assets/map2.gif" alt="Picsum random image" />
+		<figcaption>
+			Credit: background image - <small>Jhon Doe 2022</small>
+			<a href="https://picsum.photos" target="_blank">Find out More</a>
+		</figcaption>
+	</figure>
+	</a>
+	<textwrap>
+		<h2>Air Quality in Manhatttan</h2>
+		<!--<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>-->
+	</textwrap>
+</card>
+
     </div>
-  
+     <div class ="seperator">
+    </div>
 </body3>
 
 
-
-
-
 <body4>
+    
     <div class ="name">
-   Interlacing Qubits
-   </div>
+    Tracking My Run</div>
     <div class ="description">
-   This project was created in Q jam, a Quantum Design hackaton in partnership with IBM and Parsons School of Design. 
+        Since the beginning of the pandemic, 
+        I started to go running twice a week or more to articulate my thoughts about life while maintaining my mental sanity also to help myself going through the unprecendeted global crisis.
+        Running has basically been my ‘therepy’ since then, plus it’s free and widely accessible.
+    <div class ="description2_new">
+   I was able to extract my metadata of what I have run in the past year from Strava and analyzed the data into a mega analysis project 
     </div>
-    <div class ="description2">Our group mainly used Python and Qiskit circuits created by IBM. We also ran our codes on the real Quantum Computer provided by IBM.</div>
-    <div class ="link"><a href ="https://drive.google.com/file/d/1h-482Ax9NY2wW_2ZE8RTfqOQrPyWiE4h/view?usp=sharing">
+    
+    <div class ="link">
+        <a href ="https://chayanitoey.github.io/FinalDataStructure/RunningProject/Notion/notion.html">
         See this project in action ↗
-        </a>
+          </a>
     </div>
-      <div class ="seperator">
+        </div>
+
+    <div class ="side_assets">
+        <card>
+    <a href ="https://chayanitoey.github.io/FinalDataStructure/RunningProject/Notion/notion.html">
+	<figure>
+		<tooltip-icon>i</tooltip-icon>
+		<img src="assets/Map.jpg" alt="Picsum random image" />
+		<figcaption>
+			Credit: background image - <small>Jhon Doe 2022</small>
+			<a href="https://picsum.photos" target="_blank">Find out More</a>
+		</figcaption>
+	</figure>
+	</a>
+	<textwrap>
+		<h2>Running Map in 2021</h2>
+		<!--<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>-->
+	</textwrap>
+</card>
+
     </div>
-     <div class ="sideImage">
-        <img src="assets/EEncrypted 1.png"></img>
+
+    <div class ="seperator">
     </div>
-     <div class ="sideImageExtra1">
-        <img src="assets/2-q 1.png"></img>
-    </div>
-      <div class ="sideImageExtra2">
-        <img src="assets/2Qjam 1.png"></img>
-    </div>
+    
   
 </body4> 
 
@@ -143,27 +235,180 @@
     <div class ="description">
         An earthquake is a violent and abrupt shaking of the ground, caused by movement between tectonic plates along a fault line in the earth's crust. Earthquakes can result in the ground shaking, soil liquefaction, landslides, fissures, avalanches, fires and tsunamis. The extent of destruction and harm caused by an earthquake depends on multiple factors i.e. 
         magnitude, intensity and duration, etc. In the following visualization, we will give you a glimpse of the most 'important' earthquakes that happened in the past month / last 30 days.
-    
     <div class ="description2_new">
         Using the data set of the significant earthquakes happened in the past month which I extracted from USGS, visualizing with leaflet.js and d3.js
     </div>
-        
-    </div>
     
-    <div class ="link">
+       <div class ="link">
         <a href ="https://chayanitoey.github.io/earthquakeproject/">
         See this project in action ↗
           </a>
+        </div>
+    
     </div>
+
+
+          
+    
+
+  
     <div class ="side_assets">
-        <img src="assets/Chay_VisualizingEarthquake_1.png"></img>
+        <card>
+   <a href ="https://chayanitoey.github.io/earthquakeproject/">
+	<figure>
+		<tooltip-icon>i</tooltip-icon>
+		<img src="assets/Chay_VisualizingEarthquake_1.png" alt="Picsum random image" />
+		<figcaption>
+			<!--Credit: background image - <small>Jhon Doe 2022</small>-->
+			<a href="https://picsum.photos" target="_blank">Find out More</a>
+		</figcaption>
+	</figure>
+	</a>
+	<textwrap>
+		<h2>Real Time Earthquakes</h2>
+		<!--<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>-->
+	</textwrap>
+</card>
+
+    </div>
+    <!-- <div class ="sideImageExtra">-->
+    <!--    <img src="assets/Chay_TimeIs_1 1.png"></img>-->
+    <!--</div>-->
+   
+
+    <div class ="seperator">
+    </div>
+</body5>
+
+<body6>
+    <div class ="name">
+    Sensing The Potus</div>
+    <div class ="description">
+        This project is created around the idea of  measuring ‘sentiment from the former president’s speeches, by parsing texts from the State of the Union address. 
+
+    <div class ="description2_new">
+        Using the publicly available data of the presidential speeches from <a href= "https://www.kaggle.com/"> "Kaggle" </a> , visualizing on Observable
+    </div>
+        
+    <div class ="link">
+        <a href ="https://observablehq.com/@chaytha/textualvisualization">
+        See this project in action ↗
+          </a>
+    </div>
+   </div>
+
+    
+    
+    <div class ="side_assets">
+        <card>
+    <a href ="https://observablehq.com/@chaytha/textualvisualization">
+	<figure>
+		<tooltip-icon>i</tooltip-icon>
+		<img src="assets/Potus.jpg" alt="" />
+		<figcaption>
+			<!--Credit: background image - <small>Jhon Doe 2022</small>-->
+			<a href="https://picsum.photos" target="_blank">Find out More</a>
+		</figcaption>
+	</figure>
+	</a>
+	<textwrap>
+		<h2>Analysing Qualiitative Data </h2>
+		<!--<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>-->
+	</textwrap>
+</card>
+
+
     </div>
     <!-- <div class ="sideImageExtra">-->
     <!--    <img src="assets/Chay_TimeIs_1 1.png"></img>-->
     <!--</div>-->
     <div class ="seperator">
     </div>
-</body5>
+</body6>
+
+<body7>
+    
+    <div class ="name">
+        Visualizing Time
+    </div>
+    <div class ="description">
+    In this project, I explored the idea of how we can create a clock without numerical elements.
+    I used basic shapes to translate time and created appealing visual with interactive elements.
+    <div class ="description2_new">
+    Main tools are P5.js and CSS, I also added ‘Tweakpane’ as an optional tool for users to play with design elements. </div>
+    <div class ="link">
+        <a href ="https://chayanitoey.github.io/timeproject/">
+        See this project in action ↗
+          </a>
+    </div>
+     </div>
+    
+      <div class ="side_assets">
+        <card>
+    <a href ="https://chayanitoey.github.io/timeproject/">
+	<figure>
+		<tooltip-icon>i</tooltip-icon>
+		<img src="assets/timeviz.gif" alt="Picsum random image" />
+		<figcaption>
+			<!--Credit: background image - <small>Jhon Doe 2022</small>-->
+			<a href="https://picsum.photos" target="_blank">Find out More</a>
+		</figcaption>
+	</figure>
+	</a>
+	<textwrap>
+		<h2>Creative Coding</h2>
+		<!--<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>-->
+	</textwrap>
+</card>
+
+    </div>
+    <div class ="seperator">
+    </div>
+    
+</body7>
+
+<body8>
+    
+    <div class ="name">
+   Interlacing Qubits
+   </div>
+    <div class ="description">
+   This project was created in Q jam, a Quantum Design hackaton in partnership with IBM and Parsons School of Design. 
+    <div class ="description2_new">Our group mainly used Python and Qiskit circuits created by IBM. We also ran our codes on the real Quantum Computer provided by IBM.</div>
+    <div class ="link">
+        <a href ="https://drive.google.com/file/d/1h-482Ax9NY2wW_2ZE8RTfqOQrPyWiE4h/view?usp=sharing">
+        See this project in action ↗
+        </a>
+    </div>
+  </div>
+
+    
+     <div class ="side_assets">
+        <card>
+    <a href ="https://drive.google.com/file/d/1h-482Ax9NY2wW_2ZE8RTfqOQrPyWiE4h/view?usp=sharing">
+	<figure>
+		<tooltip-icon>i</tooltip-icon>
+		<img src="assets/quantum.png" alt="" />
+		<figcaption>
+			<!--Credit: background image - <small>Jhon Doe 2022</small>-->
+			<a href="https://picsum.photos" target="_blank">Find out More</a>
+		</figcaption>
+	</figure>
+	</a>
+	<textwrap>
+		<h2>Quantum Art </h2>
+		<!--<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>-->
+	</textwrap>
+</card>
+
+    </div>
+    
+      <div class ="seperator">
+    </div>
+    
+</body8>
+
+
 
 <footer>
     <footer1>
