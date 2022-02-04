@@ -176,7 +176,7 @@ border: 2px solid #181717;
 /* 01 / PROJECT NAME */
 .name{
 float:left;
-font-family: 'Inter', sans-serif;
+font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 450%;
@@ -198,7 +198,7 @@ bottom: 10%;
 margin-bottom: 10%;
 
 /* Body */
-font-family: 'Inter', sans-serif;
+font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 180%;
@@ -220,7 +220,7 @@ top:60%;
 bottom: 60%;
 
 /* Sub-text */
-font-family: 'Inter', sans-serif;
+font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 130%;
@@ -246,7 +246,7 @@ float:left;
 margin-top: 20%;
 
 /* Sub Header / Link */
-font-family: 'Inter', sans-serif;
+font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 26px;
@@ -490,7 +490,7 @@ width: 10%;
 height: 20%;
 top: 100%;
 
-font-family: 'Inter', sans-serif;
+font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 150%;
@@ -509,7 +509,7 @@ width: 10%;
 height: 20%;
 top: 110%;
 
-font-family: 'Inter', sans-serif;
+font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 150%;
@@ -531,7 +531,7 @@ left: 20%;
 top: 90%;
 
 /* Body */
-font-family: 'Inter', sans-serif;
+font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 150%;
@@ -551,7 +551,7 @@ left: 20%;
 top: 100%;
 
 /* Body */
-font-family: 'Inter', sans-serif;
+font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 150%;
@@ -572,7 +572,7 @@ left: 20%;
 top: 110%;
 
 /* Body */
-font-family: 'Inter', sans-serif;
+font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 150%;
@@ -586,8 +586,8 @@ color: #181717;
 
 .portrait{
 position: absolute;
-width: 150%;
-height: 150%;
+width: 50%;
+height: 50%;
 left: 50%;
 top:10%;
 }
@@ -651,7 +651,7 @@ left:40%;
 top: 135%;
 
 /* Body */
-font-family: 'Inter', sans-serif;
+font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 200%;
@@ -777,7 +777,7 @@ figure {
 		bottom: 0;
 		color: hsla(360, 100%, 100%, 1);
 		padding: 0.5rem;
-		font-family: sans-serif;
+                font-family: 'DM Sans', sans-serif;
 		opacity: 0;
 		transition: opacity 0.2s ease-in 0.2s;
 	}
@@ -813,7 +813,7 @@ textwrap:hover:after {
 .animatedtext{
   display:flex;
   align-items:center;
-  font-family:sans-serif;
+  font-family: 'DM Sans', sans-serif;
   flex-direction:column;
   height:70vh;
   font-size:700%;
